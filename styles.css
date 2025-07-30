@@ -1,0 +1,80 @@
+.homepage-body {
+    border: 5px solid rgb(225, 180, 65);
+    background-color: rgb(225, 180, 65);
+    display: flex;
+    width: auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.homepage-body p {
+    padding-left:  70%;
+}
+.hero-section {
+    border: 5px solid goldenrod;
+    background-color: rgb(255, 204, 109);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: auto;
+    padding: 20px;
+}
+.hero-img {
+    width: 50%;
+    height: auto;
+    border-radius: 0;
+}
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.product-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    text-align: center;
+}
+.product-item img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.stars {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.stars i {
+    color: gold;
+    margin: 0 2px;
+}
+.fredericka-the-great-regular {
+    font-family: "Fredericka the Great", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.roboto-destination {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+@media (max-width: 768px) {
+    .products {
+        flex-direction: column;
+    }
+    .hero-section {
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero-img {
+        width: 100%;
+    }
+}
